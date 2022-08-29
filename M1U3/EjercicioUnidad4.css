@@ -27,5 +27,38 @@ p {
     border: 10px solid black;
     box-sizing: border-box;
     margin-left: 100px;
-    
+
+}
+
+.caja2 {
+    height: 300px;
+    padding: 50px;
+    background: #ff0000;
+    background: linear-gradient(90deg, #ff0000 0%, #00ff00 80%);
+    background: -webkit-linear-gradient(90deg, #ff0000 0%, #00ff00 80%);
+    background: -moz-linear-gradient(90deg, #ff0000 0%, #00ff00 80%);
+    box-shadow: 1px 20px 40px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 20px 40px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 20px 40px -12px rgba(0, 0, 0, 0.75);
+    border-radius: 0px 200px 200px 0px;
+    -webkit-border-radius: 0px 200px 200px 0px;
+    -moz-border-radius: 0px 200px 200px 0px;
+}
+
+.textocolumna {
+    columns: 2;
+}
+
+#titulo1 {
+    color: #00ff00;
+    font-family: 'Rock Salt', cursive;
+}
+
+#titulo2 {
+    color: coral;
+    font-family: 'Satisfy', cursive;
+}
+
+#parrafo1 {
+    font-family: 'Chewy', cursive;
 }
