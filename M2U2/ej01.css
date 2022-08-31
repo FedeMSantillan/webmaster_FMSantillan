@@ -4,6 +4,7 @@
     border: solid;
     border-color: black;
     position: relative;
+    flex-direction: column;
 }
 
 .cajaroja {
