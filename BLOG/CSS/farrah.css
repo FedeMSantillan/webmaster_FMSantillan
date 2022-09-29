@@ -1,0 +1,151 @@
+/* font-family: 'Roboto Slab', serif; */
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 16px 0;
+
+}
+
+header h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+header h5 {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 35px;
+}
+
+nav {
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: darkgray;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    text-underline-position: auto;
+}
+
+nav ul li a.activo {
+    background-color: brown;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: darkgray;
+    font-size: 100px;
+    font-weight: 500;
+
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+
+/*inicio HOME*/
+
+.tabla {
+    display: flex;
+    margin-left: 70px;
+    gap: 32px;
+
+}
+
+img {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 35px;
+
+
+}
+
+.columna ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.columna ul li {
+    flex-grow: 1;
+}
+
+
+
+/*FIN HOME*/
+
+
+/*inicio QUIEN SOY*/
+
+h4 {
+    color: darkgray;
+    font-size: 500;
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    color: darkgrey;
+    font-size: medium;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/*fin QUIEN SOY*/
+
+footer {
+    background-color: brown;
+    color: antiquewhite;
+    margin-bottom: 50px;
+    padding: 50px 0;
+    margin-top: 20px;
+
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.cajaprincipal {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
